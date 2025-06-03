@@ -26,7 +26,8 @@ public class CalculadoraTest {
     }
 
     @Test
-    void testDividirPorZero() {
-        assertThrows(IllegalArgumentException.class, () -> calc.dividir(5, 0));
+    void testDivisaoPorZero() {
+        Calculadora calc = new Calculadora();
+        assertThrows(ArithmeticException.class, () -> calc.dividir(10, 0));
     }
 }
