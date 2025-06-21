@@ -42,6 +42,5 @@ public class Main {
             default:
                 System.out.println("Saindo!");
         }
-         System.out.println("Obrigado pela interação!");
     }
 }
